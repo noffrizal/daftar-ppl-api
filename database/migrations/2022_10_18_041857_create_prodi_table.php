@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('prodi', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('id_fakultas');
+            $table->foreignId('id_fakultas')->constrained('fakultas');
             $table->string('nm_prodi');
             $table->timestamps();
         });

@@ -15,8 +15,8 @@ return new class extends Migration
     {
         Schema::create('kelompok', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('id_peserta');
-            $table->unsignedBigInteger('id_lokasi');
+            $table->foreignId('id_peserta')->constrained('peserta',['nim']);
+            $table->foreignId('id_lokasi')->constrained('lokasi');
             $table->timestamps();
         });
     }

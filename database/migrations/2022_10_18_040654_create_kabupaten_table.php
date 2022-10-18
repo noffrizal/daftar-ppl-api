@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('kabupaten', function (Blueprint $table) {
             $table->id('id_kab');
-            $table->unsignedBigInteger('id_prov');
+            $table->foreignId('id_prov')->constrained('provinsi',['id_prov']);
             $table->string('nm_kab');
             $table->integer('id_jenis');
             $table->timestamps();

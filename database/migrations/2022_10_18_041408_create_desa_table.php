@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('desa', function (Blueprint $table) {
             $table->id('id_desa');
-            $table->unsignedBigInteger('id_kec');
+            $table->foreignId('id_kec')->constrained('kecamatan',['id_kec']);
             $table->string('nm_desa');
             $table->integer('id_jenis');
             $table->timestamps();
