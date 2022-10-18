@@ -19,10 +19,10 @@ return new class extends Migration
             $table->string('tempat_lahir');
             $table->string('tanggal_lahir');
             $table->string('jenis_kelamin');
-            $table->foreignId('prov')->constrained('provinsi',['id_prov']);
-            $table->foreignId('kab')->constrained('kabupaten',['id_kab']);
-            $table->foreignId('kec')->constrained('kecamatan',['id_kec']);
-            $table->foreignId('desa')->constrained('desa',['id_desa']);
+            $table->foreignId('prov')->constrained('provinces');
+            $table->foreignId('kab')->constrained('regencies');
+            $table->foreignId('kec')->constrained('districts');
+            $table->foreignId('desa')->constrained('villages');
             $table->string('no_hp');
             $table->foreignId('id_fak')->constrained('fakultas');
             $table->foreignId('id_prodi')->constrained('prodi');
