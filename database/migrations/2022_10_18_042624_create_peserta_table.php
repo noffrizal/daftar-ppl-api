@@ -31,7 +31,7 @@ return new class extends Migration
             $table->string('status');
             $table->foreignId('lokasi1')->constrained('lokasi');
             $table->foreignId('lokasi2')->constrained('lokasi');
-            $table->string('pilihan_lainnya');
+            $table->string('pilihan_lainnya')->nullable();
             $table->string('foto');
             $table->string('ukt');
             $table->string('transkrip');
