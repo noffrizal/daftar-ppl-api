@@ -60,7 +60,7 @@
         <ul class="menu-list">
             <li class="divider py-2 lh-sm"><span class="small">Menu Peserta</li>
             <li>
-              <a class="m-link" href="layouts.html">
+              <a class="m-link" href="{{ route('peserta.daftar') }}">
                 <script src="https://cdn.lordicon.com/pzdvqjsp.js"></script>
                 <lord-icon
                     src="https://cdn.lordicon.com/ckatldkn.json"
@@ -71,7 +71,7 @@
               </a>
             </li>
             <li>
-              <a class="m-link" href="modals.html">
+              <a class="m-link" href="">
                 <script src="https://cdn.lordicon.com/pzdvqjsp.js"></script>
                 <lord-icon
                     src="https://cdn.lordicon.com/flvisirw.json"
