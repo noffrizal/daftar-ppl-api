@@ -123,8 +123,8 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-floating">
-                                                <input type="text" class="form-control" placeholder="No HP" name="no_hp"
-                                                    required>
+                                                <input type="text" class="form-control" placeholder="No HP"
+                                                    name="no_hp" required>
                                                 <label>No HP</label>
                                             </div>
                                         </div>
@@ -137,7 +137,8 @@
                                                 <select class="form-select" id="floatingSelect"
                                                     aria-label="Floating label select example" name="fakultas">
                                                     <option selected>Pilih Fakultas</option>
-                                                    <option value="Tarbiyah dan Ilmu Keguruan">Tarbiyah dan Ilmu Keguruan</option>
+                                                    <option value="Tarbiyah dan Ilmu Keguruan">Tarbiyah dan Ilmu Keguruan
+                                                    </option>
                                                     <option value="Syariah">Syariah</option>
                                                 </select>
                                                 <label>Fakultas</label>
@@ -146,26 +147,78 @@
                                         <div class="col-md-6 col-12">
                                             <div class="form-floating">
                                                 <select class="form-select" id="floatingSelect"
-                                                aria-label="Floating label select example" name="prodi">
-                                                <option selected>Pilih Prodi</option>
-                                                <option value="Pendidikan Matematika">Pendidikan Matematika</option>
-                                                <option value="Hukum Keluarga Islam">Hukum Keluarga Islam</option>
-                                            </select>
-                                            <label>Prodi</label>
+                                                    aria-label="Floating label select example" name="prodi">
+                                                    <option selected>Pilih Prodi</option>
+                                                    <option value="Pendidikan Matematika">Pendidikan Matematika</option>
+                                                    <option value="Hukum Keluarga Islam">Hukum Keluarga Islam</option>
+                                                </select>
+                                                <label>Prodi</label>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-12">
                                             <div class="form-floating">
-                                                <input type="number" class="form-control" placeholder="Isi dengan Angka" name="semester">
+                                                <input type="number" class="form-control" placeholder="Isi dengan Angka"
+                                                    name="semester">
                                                 <label>Semester (isi dengan angka)</label>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-12">
                                             <div class="form-floating">
-                                                <input type="number" class="form-control" placeholder="Isi dengan Angka">
+                                                <input type="number" class="form-control"
+                                                    placeholder="Isi dengan Angka">
                                                 <label>Unit (isi dengan angka)</label>
                                             </div>
                                         </div>
+                                    </form> <!-- .row end -->
+                                </div>
+                                <div class="step-tab-panel" data-step="step4">
+                                    <form class="row g-2">
+                                        <div class="col-md-4 col-12">
+                                            <label for="formFile" class="form-label">Foto</label>
+                                            <input class="form-control" type="file" id="formFile">
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <label for="formFile" class="form-label">Bukti Pembayaran UKT</label>
+                                            <input class="form-control" type="file" id="formFile">
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <label for="formFile" class="form-label">Transkrip Sementara</label>
+                                            <input class="form-control" type="file" id="formFile">
+                                        </div>
+
+                                    </form> <!-- .row end -->
+                                </div>
+                                <div class="step-tab-panel" data-step="step5">
+                                    <form class="row g-2">
+                                        <div class="col-md-6 col-12">
+                                            <div class="form-floating">
+                                                <select class="form-select" id="floatingSelect"
+                                                    aria-label="Floating label select example" name="prodi">
+                                                    <option selected>Lokasi 1</option>
+                                                    <option value="Pendidikan Matematika">Pendidikan Matematika</option>
+                                                    <option value="Hukum Keluarga Islam">Hukum Keluarga Islam</option>
+                                                </select>
+                                                <label>Lokasi 1</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <div class="form-floating">
+                                                <select class="form-select" id="floatingSelect"
+                                                    aria-label="Floating label select example" name="prodi">
+                                                    <option selected>Lokasi 2</option>
+                                                    <option value="Pendidikan Matematika">Pendidikan Matematika</option>
+                                                    <option value="Hukum Keluarga Islam">Hukum Keluarga Islam</option>
+                                                </select>
+                                                <label>Lokasi 2</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <div class="form-floating">
+                                                <label for="formFile" class="form-label">Lokasi lainnya</label>
+                                                <input class="form-control" type="text" id="formFile">
+                                            </div>
+                                        </div>
+
                                     </form> <!-- .row end -->
                                 </div>
                             </div>
