@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/peserta/daftar', function () {
     return view('dashboard.peserta.daftar');
 })->name('peserta.daftar');
+
+Route::get('/peserta/kelompok', function () {
+    return view('dashboard.peserta.kelompok');
+})->name('peserta.kelompok');

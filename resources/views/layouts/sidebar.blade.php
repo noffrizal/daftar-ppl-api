@@ -71,7 +71,7 @@
               </a>
             </li>
             <li>
-              <a class="m-link" href="">
+              <a class="m-link" href="{{ route('peserta.kelompok') }}">
                 <script src="https://cdn.lordicon.com/pzdvqjsp.js"></script>
                 <lord-icon
                     src="https://cdn.lordicon.com/flvisirw.json"
@@ -84,4 +84,4 @@
           </ul>
       </div>
     </div>
-  </div>
+</div>

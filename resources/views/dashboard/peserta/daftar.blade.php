@@ -6,8 +6,7 @@
     <link rel="stylesheet" href="/assets/vendor/prismjs/prism.css">
 @endpush
 @section('content')
-    <div class="page-body px-xl-4 px-sm-2 px-0 py-lg-2 py-1 mt-0 mt-lg-3">
-        <div class="container">
+
             <div class="row g-3">
                 <div class="col-12 mt-5">
                     <h6 class="card-title">Form Pendaftaran PPL</h6>
@@ -214,8 +213,8 @@
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-floating">
-                                                <label for="formFile" class="form-label">Lokasi lainnya</label>
-                                                <input class="form-control" type="text" id="formFile">
+                                                <input class="form-control" type="text" id="">
+                                                <label for="" class="form-label">Lokasi lainnya</label>
                                             </div>
                                         </div>
 
@@ -231,8 +230,7 @@
                     </div>
                 </div>
             </div> <!-- .row end -->
-        </div>
-    </div>
+
 @endsection
 @push('js')
     <script src="/assets/vendor/prismjs/prism.js"></script>
