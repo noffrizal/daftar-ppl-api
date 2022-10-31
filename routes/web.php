@@ -24,3 +24,15 @@ Route::get('/peserta/daftar', function () {
 Route::get('/peserta/kelompok', function () {
     return view('dashboard.peserta.kelompok');
 })->name('peserta.kelompok');
+
+Route::get('/admin/peserta', function () {
+    return view('dashboard.admin.data-peserta');
+})->name('admin.peserta');
+
+Route::get('/admin/lokasi', function () {
+    return view('dashboard.admin.data-lokasi');
+})->name('admin.lokasi');
+
+Route::get('/admin/kelompok', function () {
+    return view('dashboard.admin.data-kelompok');
+})->name('admin.kelompok');
