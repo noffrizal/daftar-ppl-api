@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @push('css')
-    <link rel="stylesheet" href="/assets/vendor/prismjs/prism.css">
+    <link rel="stylesheet" href="{{ asset('/assets/vendor/prismjs/prism.css') }}">
 @endpush
 @section('content')
 
@@ -59,5 +59,5 @@
 
 @endsection
 @push('js')
-    <script src="/assets/vendor/prismjs/prism.js"></script>
+    <script src="{{ asset('/assets/vendor/prismjs/prism.js') }}"></script>
 @endpush

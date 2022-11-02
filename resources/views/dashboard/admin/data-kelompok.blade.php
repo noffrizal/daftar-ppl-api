@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @push('css')
-    <link rel="stylesheet" href="/assets/cssbundle/dataTables.min.css">
+    <link rel="stylesheet" href="{{ asset('/assets/cssbundle/dataTables.min.css') }}">
 @endpush
 @section('content')
 <div class="col-md-12 mt-4">
@@ -481,7 +481,7 @@
   </div>
 @endsection
 @push('js')
-<script src="/assets/js/bundle/dataTables.bundle.js"></script>
+<script src="{{ asset('/assets/js/bundle/dataTables.bundle.js') }}"></script>
 <script>
   $(document).ready(function() {
     $('#myTable').addClass('nowrap').dataTable({

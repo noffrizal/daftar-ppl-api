@@ -1,9 +1,9 @@
 @extends('layouts.main')
 @push('css')
-    <link rel="stylesheet" href="/assets/cssbundle/bootstrapdatepicker.min.css">
-    <link rel="stylesheet" href="/assets/cssbundle/select2.min.css">
-    <link rel="stylesheet" href="/assets/cssbundle/jquerysteps.min.css">
-    <link rel="stylesheet" href="/assets/vendor/prismjs/prism.css">
+    <link rel="stylesheet" href="{{ asset('/assets/cssbundle/bootstrapdatepicker.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('/assets/cssbundle/select2.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('/assets/cssbundle/jquerysteps.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('/assets/vendor/prismjs/prism.css') }}">
 @endpush
 @section('content')
 
@@ -233,16 +233,16 @@
 
 @endsection
 @push('js')
-    <script src="/assets/vendor/prismjs/prism.js"></script>
-    <script src="/assets/js/bundle/jquerysteps.bundle.js"></script>
+    <script src="{{ asset('/assets/vendor/prismjs/prism.js') }}"></script>
+    <script src="{{ asset('/assets/js/bundle/jquerysteps.bundle.js') }}"></script>
     <script>
         $('.h-wizard-demo4').steps({});
     </script>
-    <script src="/assets/js/bundle/bootstrapdatepicker.bundle.js"></script>
+    <script src="{{ asset('/assets/js/bundle/bootstrapdatepicker.bundle.js') }}"></script>
     <script>
         $('.datepicker').datepicker({});
     </script>
-    <script src="/assets/js/bundle/select2.bundle.js"></script>
+    <script src="{{ asset('/assets/js/bundle/select2.bundle.js') }}"></script>
     <script>
         // Select2 selectbox
         $('.select2').select2();

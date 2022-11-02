@@ -9,7 +9,7 @@
         <ul class="menu-list">
           <li class="collapsed">
             <a class="m-link active" data-bs-toggle="collapse" data-bs-target="#my_dashboard" href="#">
-                <script src="https://cdn.lordicon.com/pzdvqjsp.js"></script>
+                <script src="{{ url('https://cdn.lordicon.com/pzdvqjsp.js') }}"></script>
                 <lord-icon
                     src="https://cdn.lordicon.com/hjbsbdhw.json"
                     trigger="loop"

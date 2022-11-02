@@ -8,13 +8,13 @@
     <meta name="description" content="Responsive Bootstrap 5 admin dashboard template & web App ui kit.">
     <meta name="keyword"
         content="LUNO, Bootstrap 5, ReactJs, Angular, Laravel, VueJs, ASP .Net, Admin Dashboard, Admin Theme, HRMS, Projects, Hospital Admin, CRM Admin, Events, Fitness, Music, Inventory, Job Portal">
-    <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon"> <!-- Favicon-->
+    <link rel="icon" href="{{ asset('/assets/img/favicon.ico') }}" type="image/x-icon"> <!-- Favicon-->
     <title>Pendaftaran PPL</title>
     @stack('css')
     <!-- Application vendor css url -->
-    <link rel="stylesheet" href="/assets/cssbundle/daterangepicker.min.css">
+    <link rel="stylesheet" href="{{ asset('/assets/cssbundle/daterangepicker.min.css') }}">
     <!-- project css file  -->
-    <link rel="stylesheet" href="/assets/css/luno-style.css">
+    <link rel="stylesheet" href="{{ asset('/assets/css/luno-style.css') }}">
     <!-- Jquery Core Js -->
 
 
@@ -49,13 +49,13 @@
 
     <!-- Jquery Page Js -->
     <!-- Jquery Page Js -->
-    <script src="/assets/js/theme.js"></script>
-    <script src="/assets/js/plugins.js"></script>
+    <script src="{{ asset('/assets/js/theme.js') }}"></script>
+    <script src="{{ asset('/assets/js/plugins.js') }}"></script>
     <!-- Plugin Js -->
     @stack('js')
-    <script src="/assets/js/bundle/apexcharts.bundle.js"></script>
+    <script src="{{ asset('/assets/js/bundle/apexcharts.bundle.js') }}"></script>
     <!-- Vendor Script -->
-    <script src="/assets/js/bundle/apexcharts.bundle.js"></script>
+    <script src="{{ asset('/assets/js/bundle/apexcharts.bundle.js') }}"></script>
     <script>
         // LUNO Revenue
         var options = {
