@@ -6,6 +6,8 @@
 <div class="col-md-12 mt-4">
     <div class="card">
       <div class="card-body">
+        <button type="button" class="btn btn-success mb-2">Buat Kelompok</button>
+        <button type="button" class="btn btn-warning mb-2">Cetak PDF</button>
         <table id="myTable" class="table display dataTable table-hover" style="width:100%">
           <thead>
             <tr>
